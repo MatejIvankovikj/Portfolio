@@ -1,0 +1,266 @@
+* {
+    font-family: Verdana, Tahoma, sans-serif;
+    padding: 0;
+}
+.footer {
+        margin-left: 0px;
+        margin-top: 8px;
+        margin-bottom: 5px;
+        font-size: 15px;
+        padding: 10px;
+        font-family: Verdana;
+        text-align: center;
+        background-color: darkgoldenrod;
+}
+.logo a img {
+    max-width: 90px;
+    max-height: auto;
+    float: left;
+    clear: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 16px;
+}
+.title {
+    color: black;
+    text-align: center;
+    margin-top: 38px;
+}
+.navbar {
+    background-color: darkgoldenrod;
+    height: 135px;
+    width: 206.5vh;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+}
+nav.bar {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    text-align: center;
+}
+.notselected {
+    display: block;
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+}
+nav.bar a:hover {
+    font-weight: bold;
+    font-size: xx-large;
+    color: midnightblue;
+}
+.selected {
+    display: block;
+    color: azure;
+    padding: 8px;
+    text-decoration: none;
+}
+.pic {
+    max-width: 90px;
+    max-height: auto;
+}
+nav.bar a span {
+    font-size: 12px;
+}
+.mainmenu0 {
+    display: flex;
+    justify-content: center;
+    background-color: darkgrey;
+    text-align: left;
+    color: black;
+    font-family: Verdana;
+    font-size: 12px;
+    margin-top: 8px;
+}
+.miki {
+    margin: 40px;
+}
+.mainmenu1 {
+    display: block;
+    background-color: darkgrey;
+    text-align: left;
+    color: black;
+    font-family: Verdana;
+    margin-top: -30px;
+}
+.mainmenu2 {
+    display: flex;
+    justify-content:space-between;
+    background-color: darkgrey;
+    text-align: left;
+    color: black;
+    font-family: Verdana;
+    margin-top: 0px;
+}
+.paragraf0 {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 12px;
+}
+.imeprezime {
+    display: flex;
+    justify-content: left;
+    background-color: darkgrey;
+    text-align: center;
+    margin-left: 73px;
+    margin-top: -15px;
+}
+.paragraf1 {
+    margin-top: 20px;  
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-size: 15px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.slikafinki {
+    margin-right: 40px;
+    margin-top: 80px;
+}
+.quote {
+    margin-left: 150px;
+    margin-top: -30px;
+}
+.edu {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0px;
+    background-color: darkgray;
+    margin-left: 0px;
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+.slikashkolo {
+    height: 150px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.naslovnaskolo {
+    display: block;
+    padding: 30px;
+    margin-top: -30px;
+    margin-right: 0px;
+    background-color: darkgray;
+}
+.obrazovanieto {
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.mapi {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 0px;
+    background-color: darkgray;
+    margin-left: 0px;
+}
+.ednamapa {
+    height: 150px;
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.veshtini {
+   background-color: darkgray;
+}
+.podveshtini {
+    display: block;
+    margin-right: 0px;
+    margin-left: 100px;
+    margin-top: 8px;
+    background-color: darkgray;
+    margin-bottom: -8px;
+}
+.nekoiodmoitevestinise {
+    margin-left: 50px;
+    margin-top: 8px;
+}
+.travellingimages {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgray;
+    margin-left: 0px;
+}
+.travellingimages1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgray;
+    margin-left: 0px;
+    margin-bottom: 8px;
+}
+.odmor {
+    height: 150px;
+    width: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.patuvanje {
+    display: block;
+    padding: 30px;
+    margin-top: 8px;
+    margin-right: 0px;
+    background-color: darkgray;
+}
+.container {
+    display: flex;
+    justify-content: flex-start;
+    font-family: Verdana;
+    font-size: 20px;
+    margin-top: 8px;
+    background-image: url("kontakt.png");
+    background-size: cover;
+}
+.form {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: azure;
+}
+.email {
+    width: 100%;
+    height: 20px;
+    padding: 12px 5px;
+    box-sizing: border-box;
+    border: 1px solid darkgoldenrod;
+    background-color: darkgray;
+}
+.imee {
+    width: 100%;
+    height: 20px;
+    padding: 12px 5px;
+    box-sizing: border-box;
+    border: 1px solid darkgoldenrod;
+    background-color: darkgray;
+}
+.tell {
+    width: 100%;
+    height: 20px;
+    padding: 12px 5px;
+    box-sizing: border-box;
+    border: 1px solid darkgoldenrod;
+    background-color: darkgray;
+}
+.topic {
+    border-radius: 4px;
+    background-color: darkgray;
+    width: 100%;
+    padding: 12px 5px;
+    border: 1px solid darkgoldenrod;
+}
+.poraka {
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: darkgray;
